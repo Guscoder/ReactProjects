@@ -1,0 +1,38 @@
+.email-row {
+    overflow: hidden;
+}
+
+.email-row.selected {
+    border-left: 5px solid blue;
+}
+
+.email-is-read {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.email-toggle-is-read,
+.email-date,
+.email-from,
+.email-subject,
+.email-body {
+    text-overflow: ellipsis;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.email-toggle-is-read {
+    width: 3%;
+}
+.email-date {
+    width: 10%;
+}
+.email-from {
+    width: 15%;
+}
+.email-subject {
+    width: 30%;
+}
+.email-body {
+    width: 42%;
+}

@@ -1,0 +1,12 @@
+body {
+    background-image: url('https://us.123rf.com/450wm/ultramansk/ultramansk1707/ultramansk170700032/81701944-marble-chess-pattern-on-background.jpg?ver=6');
+    background-size: 900px 488px;
+}
+
+#app-container {
+    width: 600px;
+    background-color: white;
+    border: solid black 1px;
+    margin: auto;
+    padding: 5px;
+}

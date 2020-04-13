@@ -1,0 +1,22 @@
+body {
+    background-image: url('./brick.jpg');
+}
+
+#app-container {
+    width: 600px;
+    background-color: white;
+    border: solid black 1px;
+    margin: auto;
+    padding: 5px;
+}
+
+#grocery-container {
+    display: flex;
+    justify-content: center;
+}
+
+#grocery-cart,
+#grocery-items {
+    width: 48%;
+    margin: 1%;
+}
